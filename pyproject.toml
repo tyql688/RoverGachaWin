@@ -1,0 +1,20 @@
+[project]
+name = "rovergachapy"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pyinstaller>=6.17.0",
+    "pyperclip>=1.11.0",
+    "pywin32>=311",
+]
+
+[dependency-groups]
+dev = [
+    "pillow>=12.0.0",
+    "ruff>=0.14.9",
+]
+
+[tool.uv]
+default-groups = []

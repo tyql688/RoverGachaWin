@@ -1,0 +1,19 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+build/
+dist/
+*.spec
+.vscode/
+.idea/
+uv.lock
+.ruff_cache/
+gacha.ps1
+
+# ai
+GEMINI.md
