@@ -37,7 +37,7 @@ def build():
         subprocess.run(cmd, check=True)
         print("-" * 50)
         print("Build SUCCESS!")
-        print(f"Executable created at: {os.path.abspath('dist/RoverGacha.exe')}")
+        print(f"Executable created at: {os.path.abspath('dist/小维抽卡助手.exe')}")
     except subprocess.CalledProcessError as e:
         print(f"Build FAILED with error code {e.returncode}")
 
